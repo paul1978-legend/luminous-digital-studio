@@ -10,21 +10,48 @@ export default function Home() {
     <main className="min-h-screen px-6 py-16 max-w-5xl mx-auto">
 
       {/* Hero */}
-      <section className="mb-20 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">
-          Luminous Digital Studio
-        </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
-          Beautiful, affordable websites and simple apps for small businesses, creatives, and local brands.
-        </p>
+      {/* Hero */}
+<section className="relative mb-28 text-center overflow-hidden rounded-3xl py-24 px-6 border bg-gradient-to-b from-white to-gray-50">
 
-        <a
-          href="/contact"
-          className="inline-block px-6 py-3 bg-black text-white rounded-xl"
-        >
-          Start Your Project
-        </a>
-      </section>
+  <div className="absolute inset-0 opacity-20 blur-3xl bg-gradient-to-r from-orange-200 via-pink-200 to-yellow-100"></div>
+
+  <div className="relative z-10">
+
+    <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-6">
+      Websites • Apps • Creative Digital Experiences
+    </p>
+
+    <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+      Luminous
+      <br />
+      Digital Studio
+    </h1>
+
+    <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+      Beautiful websites and modern digital experiences crafted for small businesses, creatives, and ambitious ideas.
+    </p>
+
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+      <a
+        href="/contact"
+        className="px-8 py-4 bg-black text-white rounded-2xl hover:opacity-90 transition"
+      >
+        Start Your Project
+      </a>
+
+      <a
+        href="/contact"
+        className="px-8 py-4 border rounded-2xl hover:bg-gray-100 transition"
+      >
+        View Services
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Services */}
       <section className="mb-20">
