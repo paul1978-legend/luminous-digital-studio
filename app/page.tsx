@@ -81,6 +81,119 @@ export default function Home() {
         </div>
       </section>
 
+            {/* Portfolio */}
+      <section className="mb-28">
+
+        <div className="text-center mb-14">
+
+          <h2 className="text-3xl font-bold mb-4">
+            Featured Projects
+          </h2>
+
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            Concept websites and digital experiences crafted to showcase modern branding, clean layouts, and strong customer experience.
+          </p>
+
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-2">
+
+          {/* Project 1 */}
+          <div className="group rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-xl transition">
+
+            <div className="h-64 bg-gradient-to-br from-orange-100 via-amber-50 to-yellow-50"></div>
+
+            <div className="p-8">
+
+              <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Café Website
+              </p>
+
+              <h3 className="text-2xl font-bold mb-4">
+                Willow & Oak Café
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                A warm, modern café website focused on atmosphere, menu presentation, and customer bookings.
+              </p>
+
+            </div>
+
+          </div>
+
+          {/* Project 2 */}
+          <div className="group rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-xl transition">
+
+            <div className="h-64 bg-gradient-to-br from-blue-100 via-slate-50 to-gray-100"></div>
+
+            <div className="p-8">
+
+              <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Tradie Website
+              </p>
+
+              <h3 className="text-2xl font-bold mb-4">
+                Northside Roofing Co.
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                A clean service-based website designed to generate trust, enquiries, and local leads.
+              </p>
+
+            </div>
+
+          </div>
+
+          {/* Project 3 */}
+          <div className="group rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-xl transition">
+
+            <div className="h-64 bg-gradient-to-br from-pink-100 via-rose-50 to-orange-50"></div>
+
+            <div className="p-8">
+
+              <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Wellness Brand
+              </p>
+
+              <h3 className="text-2xl font-bold mb-4">
+                Grounded Path Wellness
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                A calming digital experience for a wellness brand focused on clarity, connection, and ease of booking.
+              </p>
+
+            </div>
+
+          </div>
+
+          {/* Project 4 */}
+          <div className="group rounded-3xl overflow-hidden border border-gray-200 bg-white shadow-sm hover:shadow-xl transition">
+
+            <div className="h-64 bg-gradient-to-br from-violet-100 via-indigo-50 to-slate-100"></div>
+
+            <div className="p-8">
+
+              <p className="text-sm uppercase tracking-[0.2em] text-gray-500 mb-3">
+                Creative Portfolio
+              </p>
+
+              <h3 className="text-2xl font-bold mb-4">
+                Ember Studio
+              </h3>
+
+              <p className="text-gray-600 leading-relaxed">
+                A portfolio experience designed to showcase visual work with elegance, simplicity, and emotional impact.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
       {/* Offer */}
       <section className="mb-20 text-center">
         <h2 className="text-2xl font-semibold mb-4">
