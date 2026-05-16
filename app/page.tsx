@@ -125,11 +125,15 @@ export default function Home() {
 
         <div className="group relative overflow-hidden rounded-[2rem] border border-gray-200 shadow-xl">
 
-          <img
-            src="/images/portfolio-showcase.png"
-            alt="Luminous Digital Studio Portfolio"
-            className="w-full transition duration-700 group-hover:scale-[1.02]"
-          />
+          <a href="/portfolio/willow-oak-cafe">
+
+            <img
+              src="/images/portfolio-showcase.png"
+              alt="Luminous Digital Studio Portfolio"
+              className="w-full transition duration-700 group-hover:scale-[1.02]"
+            />
+
+          </a>
 
         </div>
 
