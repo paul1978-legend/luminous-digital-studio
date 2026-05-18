@@ -6,7 +6,7 @@ export default function WillowOakCafePage() {
       <section className="relative overflow-hidden">
 
         <img
-          src="/images/portfolio-showcase.png"
+          src="/images/willow-oak-showcase.png"
           alt="Willow and Oak Cafe"
           className="w-full h-[70vh] object-cover"
         />
